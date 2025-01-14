@@ -35,7 +35,7 @@
     font-size: 16px;
     font-weight: 400;
     margin: 24px 160px 32px 160px;
-    margin-top: 12px;
+
 }
 
 .btn-1 {
@@ -52,7 +52,7 @@
 .cards {
     display: flex;
     margin: 32px 160px;
-    gap: 24px;
+    gap: 40px;
 }
 
 .card-1 {
@@ -104,15 +104,30 @@
     height: 325px;
 }
 
+.card-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+
+.card-contant {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+
 .challenge {
 
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
-    background: rgb(255, 255, 255);
+    background: rgb(234, 246, 248);
     background-image: url("../assets/quote-bg.png");
     background-repeat: no-repeat;
-    width: 1560px;
+    width: 1570px;
     height: 256px;
     margin: 32px 160px 80px 160px;
     padding: 48px 24px 48px 24px;
@@ -140,8 +155,67 @@
     margin-top: 4px;
 }
 
+.news-contant {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 24px 160px;
+}
+
+.news-title {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+}
+#icon{
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+
+.dt {
+    display: inline;
+    margin-right: 20px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+.s-p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+.satellite {
+    display: flex;
+    width: 1570px;
+    height: 402px;
+    border-radius: 24px;
+    background: rgb(224, 240, 241);
+    margin: 24px 160px;
+}
+
+.s-contant {
+    margin: 26px 48px 56px 288px;
+}
+.s-contant-2{
+    margin: 48px;
+}
+
+.satellite-img {
+    margin: 48px;
+    border-radius: 24px;
+}
+
+.s-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+}
+.rm-btn{
+    margin-top: 12px;
+}
 /* Shared Styles */
 .grn-btn {
+    border: none;
     border-radius: 8px;
     background: rgb(0, 106, 80);
     padding: 17px 34px 17px 34px;
@@ -154,18 +228,4 @@
     font-size: 40px;
     font-weight: 700;
     margin: 0px 160px;
-}
-
-.card-title {
-    color: rgba(14, 14, 14, 0.8);
-    font-size: 20px;
-    font-weight: 700;
-    margin-top: 24px;
-}
-
-.card-contant {
-    color: rgba(14, 14, 14, 0.7);
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 24px;
 }
