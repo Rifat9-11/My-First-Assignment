@@ -167,7 +167,8 @@
     font-size: 40px;
     font-weight: 700;
 }
-#icon{
+
+#icon {
     margin-top: 5px;
     margin-bottom: 12px;
 }
@@ -179,11 +180,13 @@
     font-size: 16px;
     font-weight: 400;
 }
-.s-p{
+
+.s-p {
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
     font-weight: 400;
 }
+
 .satellite {
     display: flex;
     width: 1570px;
@@ -196,12 +199,14 @@
 .s-contant {
     margin: 26px 48px 56px 288px;
 }
-.s-contant-2{
+
+.s-contant-2 {
     margin: 48px;
 }
 
 .satellite-img {
     margin: 48px;
+    border: none;
     border-radius: 24px;
 }
 
@@ -210,8 +215,57 @@
     font-size: 32px;
     font-weight: 700;
 }
-.rm-btn{
+
+.rm-btn {
     margin-top: 12px;
+}
+
+.don-heading {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.don-body {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px 248px;
+}
+
+.donate {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 32px;
+}
+
+.btns {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 40px 80px;
+    background: rgb(255, 255, 255);
+}
+
+.clr-btn {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 40px 80px;
+    background: rgb(198, 228, 214);
+}
+.ph{
+    margin-top: 32px;
+    width: 1280px;
+    height: 64px;
+    margin-left: 284px;
+}
+.done-btn{
+    margin: 52px 725px;
 }
 /* Shared Styles */
 .grn-btn {
